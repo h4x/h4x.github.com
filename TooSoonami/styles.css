@@ -1,0 +1,45 @@
+html, body {
+	background-color: #333333;
+}
+
+h2 a {
+	color: #333333;
+	background-color: #FFFECF;
+	text-decoration: none;
+	font-style: italic;
+}
+h2 a:hover {
+	color: #FFFECF;
+	background-color: #333333;
+}
+
+#tweet {
+	margin: 0 15%;
+	position: absolute;
+	color: #23A1A1;
+	font-size: 26px;
+	text-align: center;
+	width: 70%;
+}
+#tweet a {
+	color: #018282;
+	font-style: italic;
+	text-decoration: none;
+}
+#tweet a:hover {
+	background-color: #DEF2FF;
+}
+#tweet p.author {
+	padding-top: 10px;
+	font-size: 11px;
+}
+
+h1 {
+	-moz-user-select: none;
+	cursor: default;
+	width: 100%;
+	text-align: center;
+	color: #efefef;
+	font-size: 250px;
+	position: absolute;
+}
